@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+coverage
+
+# build-time scrape cache (regenerable)
+scripts/.legge_cache
+
+# local Claude settings & logs
+.claude/settings.local.json
+*.log

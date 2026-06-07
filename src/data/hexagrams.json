@@ -1,0 +1,1218 @@
+[
+  {
+    "king_wen": 1,
+    "name_zh": "乾",
+    "name_pinyin": "Qián",
+    "name_en": "The Creative",
+    "lines": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "lower_trigram": "qian",
+    "upper_trigram": "qian",
+    "nuclear_lower": "qian",
+    "nuclear_upper": "qian",
+    "binary": "111111"
+  },
+  {
+    "king_wen": 2,
+    "name_zh": "坤",
+    "name_pinyin": "Kūn",
+    "name_en": "The Receptive",
+    "lines": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lower_trigram": "kun",
+    "upper_trigram": "kun",
+    "nuclear_lower": "kun",
+    "nuclear_upper": "kun",
+    "binary": "000000"
+  },
+  {
+    "king_wen": 3,
+    "name_zh": "屯",
+    "name_pinyin": "Zhūn",
+    "name_en": "Difficulty at the Beginning",
+    "lines": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "lower_trigram": "zhen",
+    "upper_trigram": "kan",
+    "nuclear_lower": "kun",
+    "nuclear_upper": "gen",
+    "binary": "100010"
+  },
+  {
+    "king_wen": 4,
+    "name_zh": "蒙",
+    "name_pinyin": "Méng",
+    "name_en": "Youthful Folly",
+    "lines": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "lower_trigram": "kan",
+    "upper_trigram": "gen",
+    "nuclear_lower": "zhen",
+    "nuclear_upper": "kun",
+    "binary": "010001"
+  },
+  {
+    "king_wen": 5,
+    "name_zh": "需",
+    "name_pinyin": "Xū",
+    "name_en": "Waiting (Nourishment)",
+    "lines": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "lower_trigram": "qian",
+    "upper_trigram": "kan",
+    "nuclear_lower": "dui",
+    "nuclear_upper": "li",
+    "binary": "111010"
+  },
+  {
+    "king_wen": 6,
+    "name_zh": "訟",
+    "name_pinyin": "Sòng",
+    "name_en": "Conflict",
+    "lines": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "lower_trigram": "kan",
+    "upper_trigram": "qian",
+    "nuclear_lower": "li",
+    "nuclear_upper": "xun",
+    "binary": "010111"
+  },
+  {
+    "king_wen": 7,
+    "name_zh": "師",
+    "name_pinyin": "Shī",
+    "name_en": "The Army",
+    "lines": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lower_trigram": "kan",
+    "upper_trigram": "kun",
+    "nuclear_lower": "zhen",
+    "nuclear_upper": "kun",
+    "binary": "010000"
+  },
+  {
+    "king_wen": 8,
+    "name_zh": "比",
+    "name_pinyin": "Bǐ",
+    "name_en": "Holding Together (Union)",
+    "lines": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "lower_trigram": "kun",
+    "upper_trigram": "kan",
+    "nuclear_lower": "kun",
+    "nuclear_upper": "gen",
+    "binary": "000010"
+  },
+  {
+    "king_wen": 9,
+    "name_zh": "小畜",
+    "name_pinyin": "Xiǎo Chù",
+    "name_en": "The Taming Power of the Small",
+    "lines": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "lower_trigram": "qian",
+    "upper_trigram": "xun",
+    "nuclear_lower": "dui",
+    "nuclear_upper": "li",
+    "binary": "111011"
+  },
+  {
+    "king_wen": 10,
+    "name_zh": "履",
+    "name_pinyin": "Lǚ",
+    "name_en": "Treading (Conduct)",
+    "lines": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      1
+    ],
+    "lower_trigram": "dui",
+    "upper_trigram": "qian",
+    "nuclear_lower": "li",
+    "nuclear_upper": "xun",
+    "binary": "110111"
+  },
+  {
+    "king_wen": 11,
+    "name_zh": "泰",
+    "name_pinyin": "Tài",
+    "name_en": "Peace",
+    "lines": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lower_trigram": "qian",
+    "upper_trigram": "kun",
+    "nuclear_lower": "dui",
+    "nuclear_upper": "zhen",
+    "binary": "111000"
+  },
+  {
+    "king_wen": 12,
+    "name_zh": "否",
+    "name_pinyin": "Pǐ",
+    "name_en": "Standstill (Stagnation)",
+    "lines": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "lower_trigram": "kun",
+    "upper_trigram": "qian",
+    "nuclear_lower": "gen",
+    "nuclear_upper": "xun",
+    "binary": "000111"
+  },
+  {
+    "king_wen": 13,
+    "name_zh": "同人",
+    "name_pinyin": "Tóng Rén",
+    "name_en": "Fellowship with Men",
+    "lines": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "lower_trigram": "li",
+    "upper_trigram": "qian",
+    "nuclear_lower": "xun",
+    "nuclear_upper": "qian",
+    "binary": "101111"
+  },
+  {
+    "king_wen": 14,
+    "name_zh": "大有",
+    "name_pinyin": "Dà Yǒu",
+    "name_en": "Possession in Great Measure",
+    "lines": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "lower_trigram": "qian",
+    "upper_trigram": "li",
+    "nuclear_lower": "qian",
+    "nuclear_upper": "dui",
+    "binary": "111101"
+  },
+  {
+    "king_wen": 15,
+    "name_zh": "謙",
+    "name_pinyin": "Qiān",
+    "name_en": "Modesty",
+    "lines": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lower_trigram": "gen",
+    "upper_trigram": "kun",
+    "nuclear_lower": "kan",
+    "nuclear_upper": "zhen",
+    "binary": "001000"
+  },
+  {
+    "king_wen": 16,
+    "name_zh": "豫",
+    "name_pinyin": "Yù",
+    "name_en": "Enthusiasm",
+    "lines": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "lower_trigram": "kun",
+    "upper_trigram": "zhen",
+    "nuclear_lower": "gen",
+    "nuclear_upper": "kan",
+    "binary": "000100"
+  },
+  {
+    "king_wen": 17,
+    "name_zh": "隨",
+    "name_pinyin": "Suí",
+    "name_en": "Following",
+    "lines": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "lower_trigram": "zhen",
+    "upper_trigram": "dui",
+    "nuclear_lower": "gen",
+    "nuclear_upper": "xun",
+    "binary": "100110"
+  },
+  {
+    "king_wen": 18,
+    "name_zh": "蠱",
+    "name_pinyin": "Gǔ",
+    "name_en": "Work on What Has Been Spoiled (Decay)",
+    "lines": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "lower_trigram": "xun",
+    "upper_trigram": "gen",
+    "nuclear_lower": "dui",
+    "nuclear_upper": "zhen",
+    "binary": "011001"
+  },
+  {
+    "king_wen": 19,
+    "name_zh": "臨",
+    "name_pinyin": "Lín",
+    "name_en": "Approach",
+    "lines": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lower_trigram": "dui",
+    "upper_trigram": "kun",
+    "nuclear_lower": "zhen",
+    "nuclear_upper": "kun",
+    "binary": "110000"
+  },
+  {
+    "king_wen": 20,
+    "name_zh": "觀",
+    "name_pinyin": "Guān",
+    "name_en": "Contemplation (View)",
+    "lines": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "lower_trigram": "kun",
+    "upper_trigram": "xun",
+    "nuclear_lower": "kun",
+    "nuclear_upper": "gen",
+    "binary": "000011"
+  },
+  {
+    "king_wen": 21,
+    "name_zh": "噬嗑",
+    "name_pinyin": "Shì Kè",
+    "name_en": "Biting Through",
+    "lines": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "lower_trigram": "zhen",
+    "upper_trigram": "li",
+    "nuclear_lower": "gen",
+    "nuclear_upper": "kan",
+    "binary": "100101"
+  },
+  {
+    "king_wen": 22,
+    "name_zh": "賁",
+    "name_pinyin": "Bì",
+    "name_en": "Grace",
+    "lines": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "lower_trigram": "li",
+    "upper_trigram": "gen",
+    "nuclear_lower": "kan",
+    "nuclear_upper": "zhen",
+    "binary": "101001"
+  },
+  {
+    "king_wen": 23,
+    "name_zh": "剝",
+    "name_pinyin": "Bō",
+    "name_en": "Splitting Apart",
+    "lines": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "lower_trigram": "kun",
+    "upper_trigram": "gen",
+    "nuclear_lower": "kun",
+    "nuclear_upper": "kun",
+    "binary": "000001"
+  },
+  {
+    "king_wen": 24,
+    "name_zh": "復",
+    "name_pinyin": "Fù",
+    "name_en": "Return (The Turning Point)",
+    "lines": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lower_trigram": "zhen",
+    "upper_trigram": "kun",
+    "nuclear_lower": "kun",
+    "nuclear_upper": "kun",
+    "binary": "100000"
+  },
+  {
+    "king_wen": 25,
+    "name_zh": "無妄",
+    "name_pinyin": "Wú Wàng",
+    "name_en": "Innocence (The Unexpected)",
+    "lines": [
+      1,
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "lower_trigram": "zhen",
+    "upper_trigram": "qian",
+    "nuclear_lower": "gen",
+    "nuclear_upper": "xun",
+    "binary": "100111"
+  },
+  {
+    "king_wen": 26,
+    "name_zh": "大畜",
+    "name_pinyin": "Dà Chù",
+    "name_en": "The Taming Power of the Great",
+    "lines": [
+      1,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "lower_trigram": "qian",
+    "upper_trigram": "gen",
+    "nuclear_lower": "dui",
+    "nuclear_upper": "zhen",
+    "binary": "111001"
+  },
+  {
+    "king_wen": 27,
+    "name_zh": "頤",
+    "name_pinyin": "Yí",
+    "name_en": "The Corners of the Mouth (Nourishment)",
+    "lines": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "lower_trigram": "zhen",
+    "upper_trigram": "gen",
+    "nuclear_lower": "kun",
+    "nuclear_upper": "kun",
+    "binary": "100001"
+  },
+  {
+    "king_wen": 28,
+    "name_zh": "大過",
+    "name_pinyin": "Dà Guò",
+    "name_en": "Preponderance of the Great",
+    "lines": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lower_trigram": "xun",
+    "upper_trigram": "dui",
+    "nuclear_lower": "qian",
+    "nuclear_upper": "qian",
+    "binary": "011110"
+  },
+  {
+    "king_wen": 29,
+    "name_zh": "坎",
+    "name_pinyin": "Kǎn",
+    "name_en": "The Abysmal (Water)",
+    "lines": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "lower_trigram": "kan",
+    "upper_trigram": "kan",
+    "nuclear_lower": "zhen",
+    "nuclear_upper": "gen",
+    "binary": "010010"
+  },
+  {
+    "king_wen": 30,
+    "name_zh": "離",
+    "name_pinyin": "Lí",
+    "name_en": "The Clinging (Fire)",
+    "lines": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "lower_trigram": "li",
+    "upper_trigram": "li",
+    "nuclear_lower": "xun",
+    "nuclear_upper": "dui",
+    "binary": "101101"
+  },
+  {
+    "king_wen": 31,
+    "name_zh": "咸",
+    "name_pinyin": "Xián",
+    "name_en": "Influence (Wooing)",
+    "lines": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lower_trigram": "gen",
+    "upper_trigram": "dui",
+    "nuclear_lower": "xun",
+    "nuclear_upper": "qian",
+    "binary": "001110"
+  },
+  {
+    "king_wen": 32,
+    "name_zh": "恆",
+    "name_pinyin": "Héng",
+    "name_en": "Duration",
+    "lines": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lower_trigram": "xun",
+    "upper_trigram": "zhen",
+    "nuclear_lower": "qian",
+    "nuclear_upper": "dui",
+    "binary": "011100"
+  },
+  {
+    "king_wen": 33,
+    "name_zh": "遯",
+    "name_pinyin": "Dùn",
+    "name_en": "Retreat",
+    "lines": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "lower_trigram": "gen",
+    "upper_trigram": "qian",
+    "nuclear_lower": "xun",
+    "nuclear_upper": "qian",
+    "binary": "001111"
+  },
+  {
+    "king_wen": 34,
+    "name_zh": "大壯",
+    "name_pinyin": "Dà Zhuàng",
+    "name_en": "The Power of the Great",
+    "lines": [
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lower_trigram": "qian",
+    "upper_trigram": "zhen",
+    "nuclear_lower": "qian",
+    "nuclear_upper": "dui",
+    "binary": "111100"
+  },
+  {
+    "king_wen": 35,
+    "name_zh": "晉",
+    "name_pinyin": "Jìn",
+    "name_en": "Progress",
+    "lines": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "lower_trigram": "kun",
+    "upper_trigram": "li",
+    "nuclear_lower": "gen",
+    "nuclear_upper": "kan",
+    "binary": "000101"
+  },
+  {
+    "king_wen": 36,
+    "name_zh": "明夷",
+    "name_pinyin": "Míng Yí",
+    "name_en": "Darkening of the Light",
+    "lines": [
+      1,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lower_trigram": "li",
+    "upper_trigram": "kun",
+    "nuclear_lower": "kan",
+    "nuclear_upper": "zhen",
+    "binary": "101000"
+  },
+  {
+    "king_wen": 37,
+    "name_zh": "家人",
+    "name_pinyin": "Jiā Rén",
+    "name_en": "The Family (The Clan)",
+    "lines": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "lower_trigram": "li",
+    "upper_trigram": "xun",
+    "nuclear_lower": "kan",
+    "nuclear_upper": "li",
+    "binary": "101011"
+  },
+  {
+    "king_wen": 38,
+    "name_zh": "睽",
+    "name_pinyin": "Kuí",
+    "name_en": "Opposition",
+    "lines": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "lower_trigram": "dui",
+    "upper_trigram": "li",
+    "nuclear_lower": "li",
+    "nuclear_upper": "kan",
+    "binary": "110101"
+  },
+  {
+    "king_wen": 39,
+    "name_zh": "蹇",
+    "name_pinyin": "Jiǎn",
+    "name_en": "Obstruction",
+    "lines": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "lower_trigram": "gen",
+    "upper_trigram": "kan",
+    "nuclear_lower": "kan",
+    "nuclear_upper": "li",
+    "binary": "001010"
+  },
+  {
+    "king_wen": 40,
+    "name_zh": "解",
+    "name_pinyin": "Xiè",
+    "name_en": "Deliverance",
+    "lines": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "lower_trigram": "kan",
+    "upper_trigram": "zhen",
+    "nuclear_lower": "li",
+    "nuclear_upper": "kan",
+    "binary": "010100"
+  },
+  {
+    "king_wen": 41,
+    "name_zh": "損",
+    "name_pinyin": "Sǔn",
+    "name_en": "Decrease",
+    "lines": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      1
+    ],
+    "lower_trigram": "dui",
+    "upper_trigram": "gen",
+    "nuclear_lower": "zhen",
+    "nuclear_upper": "kun",
+    "binary": "110001"
+  },
+  {
+    "king_wen": 42,
+    "name_zh": "益",
+    "name_pinyin": "Yì",
+    "name_en": "Increase",
+    "lines": [
+      1,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "lower_trigram": "zhen",
+    "upper_trigram": "xun",
+    "nuclear_lower": "kun",
+    "nuclear_upper": "gen",
+    "binary": "100011"
+  },
+  {
+    "king_wen": 43,
+    "name_zh": "夬",
+    "name_pinyin": "Guài",
+    "name_en": "Break-through (Resoluteness)",
+    "lines": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lower_trigram": "qian",
+    "upper_trigram": "dui",
+    "nuclear_lower": "qian",
+    "nuclear_upper": "qian",
+    "binary": "111110"
+  },
+  {
+    "king_wen": 44,
+    "name_zh": "姤",
+    "name_pinyin": "Gòu",
+    "name_en": "Coming to Meet",
+    "lines": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "lower_trigram": "xun",
+    "upper_trigram": "qian",
+    "nuclear_lower": "qian",
+    "nuclear_upper": "qian",
+    "binary": "011111"
+  },
+  {
+    "king_wen": 45,
+    "name_zh": "萃",
+    "name_pinyin": "Cuì",
+    "name_en": "Gathering Together (Massing)",
+    "lines": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "lower_trigram": "kun",
+    "upper_trigram": "dui",
+    "nuclear_lower": "gen",
+    "nuclear_upper": "xun",
+    "binary": "000110"
+  },
+  {
+    "king_wen": 46,
+    "name_zh": "升",
+    "name_pinyin": "Shēng",
+    "name_en": "Pushing Upward",
+    "lines": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "lower_trigram": "xun",
+    "upper_trigram": "kun",
+    "nuclear_lower": "dui",
+    "nuclear_upper": "zhen",
+    "binary": "011000"
+  },
+  {
+    "king_wen": 47,
+    "name_zh": "困",
+    "name_pinyin": "Kùn",
+    "name_en": "Oppression (Exhaustion)",
+    "lines": [
+      0,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "lower_trigram": "kan",
+    "upper_trigram": "dui",
+    "nuclear_lower": "li",
+    "nuclear_upper": "xun",
+    "binary": "010110"
+  },
+  {
+    "king_wen": 48,
+    "name_zh": "井",
+    "name_pinyin": "Jǐng",
+    "name_en": "The Well",
+    "lines": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "lower_trigram": "xun",
+    "upper_trigram": "kan",
+    "nuclear_lower": "dui",
+    "nuclear_upper": "li",
+    "binary": "011010"
+  },
+  {
+    "king_wen": 49,
+    "name_zh": "革",
+    "name_pinyin": "Gé",
+    "name_en": "Revolution (Molting)",
+    "lines": [
+      1,
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "lower_trigram": "li",
+    "upper_trigram": "dui",
+    "nuclear_lower": "xun",
+    "nuclear_upper": "qian",
+    "binary": "101110"
+  },
+  {
+    "king_wen": 50,
+    "name_zh": "鼎",
+    "name_pinyin": "Dǐng",
+    "name_en": "The Cauldron",
+    "lines": [
+      0,
+      1,
+      1,
+      1,
+      0,
+      1
+    ],
+    "lower_trigram": "xun",
+    "upper_trigram": "li",
+    "nuclear_lower": "qian",
+    "nuclear_upper": "dui",
+    "binary": "011101"
+  },
+  {
+    "king_wen": 51,
+    "name_zh": "震",
+    "name_pinyin": "Zhèn",
+    "name_en": "The Arousing (Shock, Thunder)",
+    "lines": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "lower_trigram": "zhen",
+    "upper_trigram": "zhen",
+    "nuclear_lower": "gen",
+    "nuclear_upper": "kan",
+    "binary": "100100"
+  },
+  {
+    "king_wen": 52,
+    "name_zh": "艮",
+    "name_pinyin": "Gèn",
+    "name_en": "Keeping Still (Mountain)",
+    "lines": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "lower_trigram": "gen",
+    "upper_trigram": "gen",
+    "nuclear_lower": "kan",
+    "nuclear_upper": "zhen",
+    "binary": "001001"
+  },
+  {
+    "king_wen": 53,
+    "name_zh": "漸",
+    "name_pinyin": "Jiàn",
+    "name_en": "Development (Gradual Progress)",
+    "lines": [
+      0,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "lower_trigram": "gen",
+    "upper_trigram": "xun",
+    "nuclear_lower": "kan",
+    "nuclear_upper": "li",
+    "binary": "001011"
+  },
+  {
+    "king_wen": 54,
+    "name_zh": "歸妹",
+    "name_pinyin": "Guī Mèi",
+    "name_en": "The Marrying Maiden",
+    "lines": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    "lower_trigram": "dui",
+    "upper_trigram": "zhen",
+    "nuclear_lower": "li",
+    "nuclear_upper": "kan",
+    "binary": "110100"
+  },
+  {
+    "king_wen": 55,
+    "name_zh": "豐",
+    "name_pinyin": "Fēng",
+    "name_en": "Abundance (Fullness)",
+    "lines": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lower_trigram": "li",
+    "upper_trigram": "zhen",
+    "nuclear_lower": "xun",
+    "nuclear_upper": "dui",
+    "binary": "101100"
+  },
+  {
+    "king_wen": 56,
+    "name_zh": "旅",
+    "name_pinyin": "Lǚ",
+    "name_en": "The Wanderer",
+    "lines": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "lower_trigram": "gen",
+    "upper_trigram": "li",
+    "nuclear_lower": "xun",
+    "nuclear_upper": "dui",
+    "binary": "001101"
+  },
+  {
+    "king_wen": 57,
+    "name_zh": "巽",
+    "name_pinyin": "Xùn",
+    "name_en": "The Gentle (Penetrating, Wind)",
+    "lines": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      1
+    ],
+    "lower_trigram": "xun",
+    "upper_trigram": "xun",
+    "nuclear_lower": "dui",
+    "nuclear_upper": "li",
+    "binary": "011011"
+  },
+  {
+    "king_wen": 58,
+    "name_zh": "兌",
+    "name_pinyin": "Duì",
+    "name_en": "The Joyous (Lake)",
+    "lines": [
+      1,
+      1,
+      0,
+      1,
+      1,
+      0
+    ],
+    "lower_trigram": "dui",
+    "upper_trigram": "dui",
+    "nuclear_lower": "li",
+    "nuclear_upper": "xun",
+    "binary": "110110"
+  },
+  {
+    "king_wen": 59,
+    "name_zh": "渙",
+    "name_pinyin": "Huàn",
+    "name_en": "Dispersion (Dissolution)",
+    "lines": [
+      0,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "lower_trigram": "kan",
+    "upper_trigram": "xun",
+    "nuclear_lower": "zhen",
+    "nuclear_upper": "gen",
+    "binary": "010011"
+  },
+  {
+    "king_wen": 60,
+    "name_zh": "節",
+    "name_pinyin": "Jié",
+    "name_en": "Limitation",
+    "lines": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      0
+    ],
+    "lower_trigram": "dui",
+    "upper_trigram": "kan",
+    "nuclear_lower": "zhen",
+    "nuclear_upper": "gen",
+    "binary": "110010"
+  },
+  {
+    "king_wen": 61,
+    "name_zh": "中孚",
+    "name_pinyin": "Zhōng Fú",
+    "name_en": "Inner Truth",
+    "lines": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      1
+    ],
+    "lower_trigram": "dui",
+    "upper_trigram": "xun",
+    "nuclear_lower": "zhen",
+    "nuclear_upper": "gen",
+    "binary": "110011"
+  },
+  {
+    "king_wen": 62,
+    "name_zh": "小過",
+    "name_pinyin": "Xiǎo Guò",
+    "name_en": "Preponderance of the Small",
+    "lines": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "lower_trigram": "gen",
+    "upper_trigram": "zhen",
+    "nuclear_lower": "xun",
+    "nuclear_upper": "dui",
+    "binary": "001100"
+  },
+  {
+    "king_wen": 63,
+    "name_zh": "既濟",
+    "name_pinyin": "Jì Jì",
+    "name_en": "After Completion",
+    "lines": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "lower_trigram": "li",
+    "upper_trigram": "kan",
+    "nuclear_lower": "kan",
+    "nuclear_upper": "li",
+    "binary": "101010"
+  },
+  {
+    "king_wen": 64,
+    "name_zh": "未濟",
+    "name_pinyin": "Wèi Jì",
+    "name_en": "Before Completion",
+    "lines": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "lower_trigram": "kan",
+    "upper_trigram": "li",
+    "nuclear_lower": "li",
+    "nuclear_upper": "kan",
+    "binary": "010101"
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "note": "Seed entries for in-UI tooltips and the Learn panel. Keep definitions short, accurate, and non-mystical. Expand as needed. Each term should be tappable wherever it first appears.",
+  "terms": [
+    {
+      "term": "Yijing (I Ching)",
+      "short": "The 'Book of Changes' — one of the oldest texts in the world, used as a wisdom and divinatory text for over 3,000 years.",
+      "long": "A foundational Chinese classic built on 64 six-line figures (hexagrams). Originally a divination manual of the early Zhou period, it later accreted layers of philosophical commentary and was absorbed into both Daoist and Confucian traditions."
+    },
+    {
+      "term": "Yang line",
+      "short": "A solid, unbroken line (⚊). Associated with the active, firm, light aspect.",
+      "long": "One of the two line types. In casting it appears as 'young yang' (7, stable) or 'old yang' (9, moving)."
+    },
+    {
+      "term": "Yin line",
+      "short": "A broken line (⚋). Associated with the receptive, yielding, dark aspect.",
+      "long": "One of the two line types. In casting it appears as 'young yin' (8, stable) or 'old yin' (6, moving). Yin and yang are complementary, not opposed in value."
+    },
+    {
+      "term": "Moving (changing) line",
+      "short": "A line at its extreme (old yin 6 or old yang 9) that is about to turn into its opposite.",
+      "long": "Moving lines carry special commentary and transform the primary hexagram into a second, 'relating' hexagram — showing where the situation is tending. Stable lines (7, 8) do not change."
+    },
+    {
+      "term": "Trigram",
+      "short": "A figure of three lines. There are eight, each tied to a natural image (Heaven, Earth, Fire, Water, Thunder, Wind, Mountain, Lake).",
+      "long": "Two trigrams stack to form a hexagram. The lower trigram is read as the inner/near aspect, the upper as the outer/far. Each trigram also carries a family role and an attribute."
+    },
+    {
+      "term": "Hexagram",
+      "short": "A figure of six lines — the unit you consult. There are 64, numbered in the King Wen sequence.",
+      "long": "Built from two trigrams. Each hexagram has a name, an image, a Judgment, and line-by-line texts. The 64 cover a wide range of human situations."
+    },
+    {
+      "term": "The Judgment",
+      "short": "The core oracle text for a hexagram as a whole.",
+      "long": "A terse statement on the overall situation the hexagram describes, followed in tradition by commentary. Presented here in the translation you've selected."
+    },
+    {
+      "term": "The Image",
+      "short": "A reflection pairing the hexagram's natural symbolism with how the 'superior person' acts in response.",
+      "long": "Known as the Da Xiang ('Great Image'). It reads the two trigrams as natural phenomena and draws an ethical or practical orientation from them."
+    },
+    {
+      "term": "Relating hexagram",
+      "short": "The second hexagram formed when moving lines flip to their opposites.",
+      "long": "It does not predict a fixed outcome; it indicates the direction in which the present situation is tending. A reading with no moving lines has no relating hexagram."
+    },
+    {
+      "term": "Nuclear trigrams",
+      "short": "The 'hidden' trigrams formed by the inner lines (2-3-4 and 3-4-5) of a hexagram.",
+      "long": "An advanced reading device: the nuclear trigrams reveal an inner tendency within the hexagram. Shown here only when you opt into the advanced view."
+    },
+    {
+      "term": "Yarrow stalk method",
+      "short": "The oldest casting method: dividing and counting 50 dried stalks through several rounds per line.",
+      "long": "Slow and meditative. Its line outcomes are deliberately unequal — old yang and old yin are rarer than under coins — which gives moving lines particular weight. This app can use the authentic asymmetric odds or a simplified equal-style model (your choice in Settings)."
+    },
+    {
+      "term": "Three-coin method",
+      "short": "A faster method: toss three coins six times; the mix of heads and tails gives each line.",
+      "long": "More common today. Each line is equally likely to be moving yin or moving yang (1/8 each), unlike the yarrow method's asymmetry."
+    },
+    {
+      "term": "King Wen sequence",
+      "short": "The traditional 1–64 ordering of the hexagrams used throughout this app.",
+      "long": "Attributed by tradition to King Wen of Zhou. It is the standard ordering in which the hexagrams and their texts are arranged."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "king_wen": 1,
+    "name_zh": "乾",
+    "name_pinyin": "Qián",
+    "name_en": "The Creative",
+    "lines": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "lower_trigram": "qian",
+    "upper_trigram": "qian",
+    "nuclear_lower": "qian",
+    "nuclear_upper": "qian",
+    "binary": "111111"
+  },
+  {
+    "king_wen": 2,
+    "name_zh": "坤",
+    "name_pinyin": "Kūn",
+    "name_en": "The Receptive",
+    "lines": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "lower_trigram": "kun",
+    "upper_trigram": "kun",
+    "nuclear_lower": "kun",
+    "nuclear_upper": "kun",
+    "binary": "000000"
+  },
+  {
+    "king_wen": 63,
+    "name_zh": "既濟",
+    "name_pinyin": "Jì Jì",
+    "name_en": "After Completion",
+    "lines": [
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "lower_trigram": "li",
+    "upper_trigram": "kan",
+    "nuclear_lower": "kan",
+    "nuclear_upper": "li",
+    "binary": "101010"
+  }
+]

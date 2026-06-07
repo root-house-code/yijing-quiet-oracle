@@ -1,0 +1,129 @@
+/*
+ * A Quiet Oracle — global styles.
+ * Restrained, calm palette. Generous negative space. Soft transitions.
+ * Light/dark are both muted; nothing is loud.
+ */
+
+:root {
+  /* Ink & paper — warm, muted, paper-like */
+  --paper: #f4f1ea;
+  --paper-raised: #faf8f3;
+  --ink: #2b2722;
+  --ink-soft: #5c544a;
+  --ink-faint: #8a8073;
+  --line: #d9d2c5;
+  --line-strong: #b9b0a0;
+
+  /* A single restrained accent — cinnabar/seal red, used sparingly */
+  --accent: #9c4a3c;
+  --accent-soft: #b9685a;
+
+  /* Yin/yang line ink */
+  --yang: #3a342c;
+  --yin: #3a342c;
+  --moving: #9c4a3c;
+
+  --radius: 4px;
+  --shadow-soft: 0 1px 2px rgba(43, 39, 34, 0.06), 0 8px 24px rgba(43, 39, 34, 0.05);
+
+  /* Motion — slow and soft by default; overridden under reduced motion */
+  --beat: 1100ms;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', Palatino, 'Book Antiqua',
+    Georgia, 'Songti SC', 'Noto Serif', serif;
+  --font-sans: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif;
+  --measure: 38rem;
+
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1c1a17;
+    --paper-raised: #24211d;
+    --ink: #e8e2d6;
+    --ink-soft: #b6ad9e;
+    --ink-faint: #847b6d;
+    --line: #36322c;
+    --line-strong: #4d473f;
+    --accent: #c97a6b;
+    --accent-soft: #d8978a;
+    --yang: #e8e2d6;
+    --yin: #e8e2d6;
+    --moving: #d8978a;
+    --shadow-soft: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-serif);
+  font-size: 18px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  line-height: 1.3;
+}
+
+a {
+  color: var(--accent);
+}
+
+button {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Honor the user's wish for stillness. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

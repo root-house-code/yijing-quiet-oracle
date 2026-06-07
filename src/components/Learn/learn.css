@@ -1,0 +1,220 @@
+.learn-head,
+.settings-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.learn-head h2,
+.settings-head h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.learn-body {
+  max-width: var(--measure);
+}
+.learn-body h3 {
+  font-size: 1.1rem;
+  margin: 1.8rem 0 0.4rem;
+}
+.learn-body h4 {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin: 1.3rem 0 0.3rem;
+}
+.learn-body p {
+  color: var(--ink);
+  margin: 0 0 1rem;
+}
+.question-examples {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.question-examples li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: baseline;
+  gap: 0.6rem;
+}
+.q-no {
+  color: var(--ink-faint);
+  text-decoration: line-through;
+  text-decoration-color: var(--line-strong);
+  font-size: 0.92rem;
+}
+.q-yes {
+  color: var(--ink);
+}
+.q-yes::before {
+  content: '→ ';
+  color: var(--accent);
+}
+@media (max-width: 32rem) {
+  .question-examples li {
+    grid-template-columns: 1fr;
+    gap: 0.1rem;
+  }
+}
+
+/* ---- Reading-part examples --------------------------------------------- */
+.example-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.4rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.example-list li {
+  display: flex;
+  gap: 0.7rem;
+  align-items: baseline;
+}
+.ex-zh {
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--ink);
+  flex: 0 0 auto;
+}
+.ex-body {
+  font-size: 0.95rem;
+}
+.example-list.quotes li {
+  flex-direction: column;
+  gap: 0.15rem;
+}
+.ex-label {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.ex-quote {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+/* ---- Line glyphs -------------------------------------------------------- */
+.ln {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.35rem;
+  width: 2.6rem;
+  height: 0.5rem;
+  vertical-align: middle;
+  position: relative;
+}
+.ln-bar,
+.ln-seg {
+  height: 100%;
+  background: var(--ink);
+  border-radius: 2px;
+}
+.ln-yang .ln-bar {
+  width: 100%;
+}
+.ln-yin .ln-seg {
+  width: 42%;
+}
+.ln-moving .ln-bar,
+.ln-moving .ln-seg {
+  background: var(--moving);
+}
+.ln-mark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-sans);
+  font-size: 0.42rem;
+  color: var(--paper);
+}
+.ln-yin .ln-mark {
+  color: var(--moving);
+}
+
+/* ---- Tables (line types + methods) ------------------------------------- */
+.line-table,
+.method-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6rem 0 1rem;
+  font-size: 0.9rem;
+}
+.line-table th,
+.method-table th {
+  font-family: var(--font-sans);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  text-align: left;
+  font-weight: 500;
+  padding: 0.4rem 0.6rem;
+  border-bottom: 1px solid var(--line-strong);
+}
+.line-table td,
+.method-table td {
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px solid var(--line);
+  vertical-align: middle;
+}
+.line-table tr.is-moving td,
+.method-table tr.is-moving td {
+  color: var(--ink);
+}
+.line-table tr.is-moving,
+.method-table tr.is-moving {
+  background: var(--paper-raised);
+}
+
+/* ---- Yarrow flow diagram ------------------------------------------------ */
+.yarrow-flow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.6rem 0 1rem;
+}
+.yf-step {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  padding: 0.4rem 0.7rem;
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  color: var(--ink-soft);
+}
+.yf-arrow {
+  color: var(--accent);
+}
+
+.hl {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.glossary {
+  margin: 0.5rem 0 0;
+}
+.glossary-item {
+  padding: 0.9rem 0;
+  border-top: 1px solid var(--line);
+}
+.glossary-item dt {
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+.glossary-item dd {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.94rem;
+}

@@ -1,0 +1,244 @@
+/* ---- Hexagram figure ---------------------------------------------------- */
+.hex-figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.42em;
+}
+
+.hex-sm {
+  --bar-h: 0.42rem;
+  --bar-w: 4.2rem;
+  font-size: 0.7rem;
+}
+.hex-md {
+  --bar-h: 0.62rem;
+  --bar-w: 7rem;
+  font-size: 0.9rem;
+}
+.hex-lg {
+  --bar-h: 0.8rem;
+  --bar-w: 9.5rem;
+  font-size: 1rem;
+}
+
+.hex-line {
+  display: flex;
+  justify-content: center;
+}
+
+.bar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: var(--bar-w);
+  height: var(--bar-h);
+}
+
+.bar.yang {
+  background: var(--yang);
+  border-radius: 2px;
+  justify-content: center;
+}
+
+.bar.yin {
+  justify-content: space-between;
+  background: transparent;
+}
+
+.bar.yin .seg {
+  width: 42%;
+  height: 100%;
+  background: var(--yin);
+  border-radius: 2px;
+}
+
+/* Moving lines are hoverable in a reading; neutralise the tooltip button chrome
+   so it doesn't disturb the figure. */
+.tt-trigger.hex-line-trigger {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 0;
+  cursor: help;
+}
+
+.hex-line.is-moving .bar.yang {
+  background: var(--moving);
+}
+.hex-line.is-moving .bar.yin .seg {
+  background: var(--moving);
+}
+
+.bar .mark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-sans);
+  font-size: 0.7em;
+  line-height: 1;
+  color: var(--paper);
+}
+.bar.yin .mark {
+  color: var(--moving);
+}
+
+/* ---- Reading view ------------------------------------------------------- */
+.reading {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.hex-panel {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+}
+
+.hex-panel .glyph {
+  font-size: 3.2rem;
+  line-height: 1;
+  color: var(--ink);
+}
+
+.hex-meta .kw {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.hex-meta h2 {
+  margin: 0.15rem 0 0.1rem;
+  font-size: 1.5rem;
+}
+
+.hex-meta .pinyin {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.trigram-line {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: var(--ink-soft);
+  margin-top: 0.5rem;
+}
+
+.oracle {
+  border-left: 2px solid var(--line-strong);
+  padding-left: 1.1rem;
+}
+.oracle h3 {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin: 0 0 0.35rem;
+}
+.oracle p {
+  margin: 0 0 1.2rem;
+}
+
+.moving-lines li {
+  margin-bottom: 1rem;
+  list-style: none;
+}
+.moving-lines .pos {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 0.2rem;
+}
+.moving-lines ul {
+  padding: 0;
+  margin: 0;
+}
+
+.relating-note {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.section-divider {
+  border: none;
+  border-top: 1px solid var(--line);
+  margin: 0;
+}
+
+details.nuclear summary {
+  cursor: pointer;
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+details.nuclear[open] summary {
+  margin-bottom: 0.8rem;
+}
+
+.reading-question {
+  font-style: italic;
+  color: var(--ink-soft);
+  font-size: 1.1rem;
+}
+.reading-question-label {
+  display: block;
+  font-family: var(--font-sans);
+  font-style: normal;
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 0.3rem;
+}
+
+.translation-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.translation-bar label {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+.translation-bar select {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  padding: 0.3rem 0.5rem;
+  background: var(--paper-raised);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+}
+.attribution {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  flex-basis: 100%;
+}
+
+.reading-close {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1.2rem;
+}
+.saved-note {
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  color: var(--ink-faint);
+}

@@ -1,0 +1,119 @@
+.app-shell {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: var(--measure);
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.4rem 1.5rem 0;
+}
+.app-brand {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: var(--font-serif);
+  font-size: 1.15rem;
+  letter-spacing: 0.12em;
+  color: var(--ink);
+}
+.app-brand .brand-en {
+  font-size: 0.62rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-left: 0.5rem;
+}
+.app-nav {
+  display: flex;
+  gap: 0.4rem;
+}
+.app-nav button {
+  background: none;
+  border: none;
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--ink-faint);
+  padding: 0.4rem 0.5rem;
+  border-radius: var(--radius);
+  transition: color 180ms var(--ease), background 180ms var(--ease);
+}
+.app-nav button:hover,
+.app-nav button.is-active {
+  color: var(--ink);
+  background: var(--paper-raised);
+}
+
+.app-main {
+  flex: 1;
+  max-width: var(--measure);
+  width: 100%;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 5rem;
+}
+
+.app-footer {
+  max-width: var(--measure);
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+  text-align: center;
+}
+
+/* ---- Buttons ------------------------------------------------------------ */
+.btn-primary {
+  font-family: var(--font-sans);
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  color: var(--paper);
+  background: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 0.65rem 1.6rem;
+  transition: background 200ms var(--ease), transform 120ms var(--ease);
+}
+.btn-primary:hover {
+  background: var(--accent-soft);
+}
+.btn-primary:active {
+  transform: translateY(1px);
+}
+
+.btn-quiet {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  background: none;
+  border: none;
+  padding: 0.55rem 0.8rem;
+  border-radius: var(--radius);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: var(--line-strong);
+}
+.btn-quiet:hover {
+  color: var(--ink);
+}
+
+.view {
+  animation: fade-in 600ms var(--ease);
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

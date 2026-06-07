@@ -1,0 +1,114 @@
+[
+  {
+    "id": "qian",
+    "name_zh": "乾",
+    "name_pinyin": "Qián",
+    "name_en": "The Creative",
+    "image": "Heaven",
+    "attribute": "strong",
+    "family": "father",
+    "lines": [
+      1,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "dui",
+    "name_zh": "兌",
+    "name_pinyin": "Duì",
+    "name_en": "The Joyous",
+    "image": "Lake",
+    "attribute": "joyful",
+    "family": "youngest daughter",
+    "lines": [
+      1,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "li",
+    "name_zh": "離",
+    "name_pinyin": "Lí",
+    "name_en": "The Clinging",
+    "image": "Fire",
+    "attribute": "light-giving",
+    "family": "middle daughter",
+    "lines": [
+      1,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "zhen",
+    "name_zh": "震",
+    "name_pinyin": "Zhèn",
+    "name_en": "The Arousing",
+    "image": "Thunder",
+    "attribute": "inciting",
+    "family": "eldest son",
+    "lines": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "xun",
+    "name_zh": "巽",
+    "name_pinyin": "Xùn",
+    "name_en": "The Gentle",
+    "image": "Wind/Wood",
+    "attribute": "penetrating",
+    "family": "eldest daughter",
+    "lines": [
+      0,
+      1,
+      1
+    ]
+  },
+  {
+    "id": "kan",
+    "name_zh": "坎",
+    "name_pinyin": "Kǎn",
+    "name_en": "The Abysmal",
+    "image": "Water",
+    "attribute": "dangerous",
+    "family": "middle son",
+    "lines": [
+      0,
+      1,
+      0
+    ]
+  },
+  {
+    "id": "gen",
+    "name_zh": "艮",
+    "name_pinyin": "Gèn",
+    "name_en": "Keeping Still",
+    "image": "Mountain",
+    "attribute": "resting",
+    "family": "youngest son",
+    "lines": [
+      0,
+      0,
+      1
+    ]
+  },
+  {
+    "id": "kun",
+    "name_zh": "坤",
+    "name_pinyin": "Kūn",
+    "name_en": "The Receptive",
+    "image": "Earth",
+    "attribute": "devoted",
+    "family": "mother",
+    "lines": [
+      0,
+      0,
+      0
+    ]
+  }
+]

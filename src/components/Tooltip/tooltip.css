@@ -1,0 +1,85 @@
+.tt {
+  position: relative;
+  display: inline;
+}
+
+.tt-trigger {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: help;
+  border-bottom: 1px dotted var(--line-strong);
+  text-align: left;
+}
+
+.tt-bubble {
+  position: absolute;
+  bottom: calc(100% + 8px);
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  z-index: 20;
+  width: max-content;
+  max-width: 18rem;
+  padding: 0.55rem 0.7rem;
+  background: var(--paper-raised);
+  color: var(--ink-soft);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  font-family: var(--font-sans);
+  font-size: 0.82rem;
+  line-height: 1.45;
+  text-align: left;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 220ms var(--ease), transform 220ms var(--ease);
+}
+
+.tt-bubble.is-open {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* End-aligned bubble: pins to the trigger's right edge so it never overflows. */
+.tt-bubble.tt-end {
+  left: auto;
+  right: 0;
+  transform: translateX(0) translateY(4px);
+  max-width: 22rem;
+}
+.tt-bubble.tt-end.is-open {
+  transform: translateX(0) translateY(0);
+}
+
+/* Circular "i" info badge trigger. */
+.info-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.4rem;
+  height: 1.4rem;
+  border: 1px solid var(--line-strong);
+  border-radius: 50%;
+  font-family: var(--font-sans);
+  font-style: italic;
+  font-size: 0.8rem;
+  line-height: 1;
+  color: var(--ink-faint);
+  cursor: help;
+  transition: color 180ms var(--ease), border-color 180ms var(--ease);
+}
+.info-badge:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+@media (max-width: 30rem) {
+  .tt-bubble {
+    max-width: 14rem;
+  }
+}

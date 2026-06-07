@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "id": "legge",
+    "translator": "James Legge",
+    "year": 1882,
+    "source": "The Sacred Books of the East, Vol. XVI — The Yî King",
+    "license": "Public Domain",
+    "language": "en",
+    "note": "Victorian-era scholarly translation. Archaic diction is preserved as-is; do not modernize, paraphrase, or abridge. Legge's bracketed clarifications are part of his text and should be kept. Expand this file to all 64 hexagrams from a verified public-domain edition (e.g. sacred-texts.com / Project Gutenberg)."
+  },
+  "hexagrams": {
+    "1": {
+      "judgment": "Khien (represents) what is great and originating, penetrating, advantageous, correct and firm.",
+      "image": "Heaven, in its motion, (gives the idea of) strength. The superior man, in accordance with this, nerves himself to ceaseless activity.",
+      "lines": {
+        "1": "In the first (or lowest) line, undivided, (we see its subject as) the dragon lying hid (in the deep). It is not the time for active doing.",
+        "2": "In the second line, undivided, (we see its subject as) the dragon appearing in the field. It will be advantageous to meet with the great man.",
+        "3": "In the third line, undivided, (we see its subject as) the superior man active and vigilant all the day, and in the evening still careful and apprehensive. (The position is) dangerous, but there will be no mistake.",
+        "4": "In the fourth line, undivided, (we see its subject as the dragon looking) as if he were leaping up, but still in the deep. There will be no mistake.",
+        "5": "In the fifth line, undivided, (we see its subject as) the dragon on the wing in the sky. It will be advantageous to meet with the great man.",
+        "6": "In the sixth (or topmost) line, undivided, (we see its subject as) the dragon exceeding the proper limits. There will be occasion for repentance."
+      }
+    }
+  }
+}

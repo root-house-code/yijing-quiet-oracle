@@ -1,0 +1,257 @@
+/* ---- Threshold / home --------------------------------------------------- */
+.threshold {
+  text-align: center;
+  padding: 2rem 0 1rem;
+}
+.threshold-glyph {
+  font-size: 3.4rem;
+  color: var(--ink-faint);
+  line-height: 1;
+  margin-bottom: 1.2rem;
+}
+.threshold-title {
+  font-size: 2.4rem;
+  margin: 0;
+  letter-spacing: 0.08em;
+}
+.threshold-sub {
+  display: block;
+  font-size: 0.8rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-top: 0.5rem;
+}
+.threshold-invite {
+  font-size: 1.3rem;
+  margin: 2rem 0 0.8rem;
+}
+.threshold-guide {
+  color: var(--ink-soft);
+  max-width: 30rem;
+  margin: 0 auto 2rem;
+  font-size: 0.98rem;
+}
+.threshold-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ---- Pose question ------------------------------------------------------ */
+.pose-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin: 0 0 0.3rem;
+}
+.pose-h {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.pose-note {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  margin: 0 0 1.4rem;
+}
+.pose-input {
+  width: 100%;
+  font-family: var(--font-serif);
+  font-size: 1.05rem;
+  color: var(--ink);
+  background: var(--paper-raised);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  resize: vertical;
+  line-height: 1.5;
+}
+
+.method-picker {
+  border: none;
+  padding: 0;
+  margin: 1.8rem 0 0;
+}
+.method-picker legend {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 0.8rem;
+}
+.method-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 'radio name' 'radio desc';
+  gap: 0.15rem 0.8rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  margin-bottom: 0.8rem;
+  cursor: pointer;
+  transition: border-color 200ms var(--ease), background 200ms var(--ease);
+}
+.method-card.is-selected {
+  border-color: var(--accent);
+  background: var(--paper-raised);
+}
+.method-card input {
+  grid-area: radio;
+  align-self: center;
+  accent-color: var(--accent);
+}
+.method-name {
+  grid-area: name;
+  font-size: 1.05rem;
+}
+.method-desc {
+  grid-area: desc;
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.pose-actions,
+.threshold-actions {
+  margin-top: 1.6rem;
+}
+.pose-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---- Casting ritual ----------------------------------------------------- */
+.ritual {
+  text-align: center;
+}
+.ritual-caption {
+  color: var(--ink-soft);
+  margin: 0 0 2rem;
+}
+.ritual-figure {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+  max-width: 30rem;
+  margin: 0 auto;
+}
+.ritual-row {
+  display: grid;
+  grid-template-columns: 1.5rem 1fr 8rem;
+  align-items: center;
+  gap: 1rem;
+  min-height: 2.6rem;
+}
+.ritual-pos {
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  color: var(--ink-faint);
+  text-align: right;
+}
+.ritual-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 1.4rem;
+}
+.ritual-label {
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  text-align: left;
+}
+.ritual-row.is-active {
+  background: var(--paper-raised);
+  border-radius: var(--radius);
+  padding: 0.5rem 0;
+}
+.ritual-empty {
+  width: 7rem;
+  height: 0.6rem;
+  border-radius: 2px;
+  border: 1px dashed var(--line);
+}
+
+/* settled line bar */
+.cast-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 7rem;
+  height: 0.62rem;
+  position: relative;
+}
+.cast-bar .cast-seg {
+  height: 100%;
+  background: var(--yin);
+  border-radius: 2px;
+  flex: 1;
+}
+.cast-bar .cast-seg.full {
+  flex: 1 1 100%;
+}
+.cast-bar.yang .cast-seg {
+  background: var(--yang);
+}
+.cast-bar.is-moving .cast-seg {
+  background: var(--moving);
+}
+.cast-mark {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-sans);
+  font-size: 0.5rem;
+  color: var(--paper);
+}
+.cast-bar.yin .cast-mark {
+  color: var(--moving);
+}
+
+/* evidence */
+.evidence {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+.evidence.coins .coin {
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  background: var(--paper-raised);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-sans);
+  font-size: 0.7rem;
+  color: var(--ink-soft);
+}
+.evidence-note {
+  width: 100%;
+  font-family: var(--font-sans);
+  font-size: 0.66rem;
+  color: var(--ink-faint);
+}
+.evidence.yarrow .stalks {
+  display: flex;
+  gap: 2px;
+  align-items: flex-end;
+  height: 1.4rem;
+}
+.evidence.yarrow .stalk {
+  width: 2px;
+  height: 1.2rem;
+  background: var(--ink-faint);
+  transform-origin: bottom;
+}
+
+.ritual-skip {
+  margin-top: 2.2rem;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "yijing-quiet-oracle",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "易經 — A Quiet Oracle: a faithful, educational, serene I Ching consultation app.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "gen:data": "node scripts/gen_data.mjs",
+    "validate:data": "node scripts/validate_data.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^11.5.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8",
+    "vitest": "^2.1.1"
+  }
+}
