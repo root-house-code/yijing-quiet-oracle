@@ -71,6 +71,12 @@ network calls at runtime**; only this one-time build script touches the network.
 a translation, drop a file in `src/data/translations/` and list it in `index.js` —
 switching is live and never touches the structural core.
 
+## License
+
+The source code is released under the [MIT License](LICENSE). The bundled James
+Legge (1882) translation is in the public domain and reproduced verbatim with
+attribution; it is not covered by the MIT license.
+
 ## Principles (non-negotiable)
 
 Educational & transparent · respectful & true-to-form · calm & serene. No analytics,
