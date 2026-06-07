@@ -1,5 +1,9 @@
 # 易經 — A Quiet Oracle
 
+[![Deploy to GitHub Pages](https://github.com/root-house-code/yijing-quiet-oracle/actions/workflows/deploy.yml/badge.svg)](https://github.com/root-house-code/yijing-quiet-oracle/actions/workflows/deploy.yml)
+
+**Live demo: <https://root-house-code.github.io/yijing-quiet-oracle/>**
+
 A faithful, educational, and serene digital interface for consulting the *Yijing*
 (Book of Changes) the traditional way: as a structured mirror for reflection, not a
 fortune-telling gimmick. Fully client-side, offline, and free of tracking.
